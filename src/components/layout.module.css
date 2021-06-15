@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+    
+
+}
+
+
+   
+.heading {
+  color: rebeccapurple;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  
+  
+}
+.nav-link-item {
+  padding-left: 2rem;
+}
+.nav-link-text {
+  color: black;
+}
+
