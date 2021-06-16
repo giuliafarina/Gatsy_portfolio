@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Reinhard Heinemann",
+    title: "Gatbsy-portfolio",
   },
   plugins: ["gatsby-plugin-gatsby-cloud"],
 };

@@ -1,8 +1,8 @@
 {
-  "name": "reinhard-heinemann",
+  "name": "gatsby-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Reinhard Heinemann",
+  "description": "Gatsby-portfolio",
   "author": "=",
   "keywords": [
     "gatsby"
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "gatsby": "^3.6.2",
+    "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-gatsby-cloud": "^2.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
