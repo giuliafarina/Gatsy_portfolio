@@ -5,6 +5,10 @@ import * as React from 'react'
 import { Link } from "gatsby";
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Me from '../components/me';
+import Contact from "../components/contact";
+import Hero from '../components/hero';
+
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -12,10 +16,12 @@ const IndexPage = () => {
     <main>
       <Layout pageTitle="Welcome">
 
-        <h1>Hi! I'm Giulia</h1>
-        <h2>Cucu</h2>
+        <Hero />
 
       </Layout>
+
+
+      <Contact idProp="contact" />
     </main>
   )
 }

@@ -11,10 +11,7 @@
 
 
 .container{
-    text-align: center;
-    padding: 5% 7%;
-    
-
+    text-align: center; 
 }
 
 
@@ -24,12 +21,13 @@
   padding-top: 20px;
 }
 
-.heroImage{
-  background-image: url("../images/FotoCV.jpg");
-  min-width: 60px;
-  min-height: 60px;
-
+.heroSection{
+  background-color: #F8F3EB;
+  padding:5% 0;
 }
+
+
+ 
 
 .nav-bar{
   text-align: right;
