@@ -16,7 +16,7 @@ const IndexPage = () => {
     <main>
       <Layout pageTitle="Welcome">
 
-        <Hero />
+
 
       </Layout>
 
