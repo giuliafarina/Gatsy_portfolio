@@ -14,7 +14,7 @@
     text-align: center; 
 }
 
-
+/* Hero_section */
    
 .heading {
   color:#3C8DAD;
@@ -22,12 +22,16 @@
 }
 
 .heroSection{
-  background-color: #F8F3EB;
+  background-color: #EBA83A;
   padding:5% 0;
 }
 
+.photoHero{
+  padding:50px;
+}
 
- 
+
+ /* Navbar_section */
 
 .nav-bar{
   text-align: right;
