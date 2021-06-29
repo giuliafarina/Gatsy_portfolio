@@ -17,7 +17,7 @@ import Me from './me';
 import Contact from "./contact";
 import Hero from './hero';
 
-import { Container } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 
 
 
@@ -30,18 +30,25 @@ const Layout = ({ pageTitle, children }) => {
                 <main className={container}>
                     <Hero pageTitle={pageTitle} >
                         <title>{pageTitle}</title>
-                        <nav className={navBar}>
-                            <ul className={navLinks}>
-                                <li className={navLinkItem}>
-                                    <Link to="/" className={navLinkText}>Home</Link>
-                                </li>
-                                <li className={navLinkItem}>
-                                    <AnchorLink to="/#me"
-                                        className={navLinkText}>About</AnchorLink>
-                                </li>
-                                <li className={navLinkItem}><AnchorLink to="/#contact" className={navLinkText}>Contact</AnchorLink></li>
-                            </ul>
-                        </nav>
+                        <Navbar collapseOnSelect expand="lg" className={navBar}>
+                            <Navbar.Brand></Navbar.Brand>
+                            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                            <Navbar.Collapse id="responsive-navbar-nav">
+                                <Nav className="mr-auto">
+                                    <ul className={navLinks}>
+                                        <li className={navLinkItem}>
+                                            <Link to="/" className={navLinkText}>Home</Link>
+                                        </li>
+                                        <li className={navLinkItem}>
+                                            <AnchorLink to="/#me"
+                                                className={navLinkText}>About</AnchorLink>
+                                        </li>
+                                        <li className={navLinkItem}><AnchorLink to="/#contact" className={navLinkText}>Contact</AnchorLink></li>
+                                    </ul>
+                                </Nav>
+
+                            </Navbar.Collapse>
+                        </Navbar>
                         <h1 className={heading}>{pageTitle}</h1>
                     </Hero>
 
