@@ -12,19 +12,22 @@
 
 .container{
     text-align: center; 
+    padding:  0%;
 }
+
 
 /* Hero_section starts here */
    
 .heading {
   color:#3C8DAD;
   padding-top: 20px;
+  text-align: center;
 }
 
 .heroSection{
   background-color:#F9B208;
   
-  padding:5% 5%;
+  padding:7% 5%;
 }
 
 .photoHero{
@@ -56,3 +59,17 @@
 }
 
 
+/* Bio section starts here */
+
+.container_bio{
+  background-color: rosybrown;
+
+  padding: 30%;
+}
+
+/* Contact section starts here */
+
+.container_contact{
+  padding: 30%;
+  background-color: seashell;
+}

@@ -1,19 +1,23 @@
 
 
-// Step 1: Import React
 import * as React from 'react'
 import { Link } from "gatsby";
 import Layout from '../components/layout';
+
+// Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Me from '../components/me';
+
+
+
+
 import Contact from "../components/contact";
-import Hero from '../components/hero';
+
 
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <main>
+    <>
       <Layout pageTitle="WELCOME">
 
 
@@ -21,8 +25,8 @@ const IndexPage = () => {
       </Layout>
 
 
-      <Contact idProp="contact" />
-    </main>
+
+    </>
   )
 }
 

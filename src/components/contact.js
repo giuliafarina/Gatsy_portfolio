@@ -1,8 +1,14 @@
 import * as React from "react";
+import { Container } from "react-bootstrap";
+import { container_contact } from "./layout.module.css";
 
 const Contact = ({ idProp }) => {
     return (
-        <footer id={idProp}>Let's work together!</footer>
+        <Container className={container_contact}>
+            <footer id={idProp}>Let's work together!</footer>
+
+        </Container>
+
     )
 
 }
