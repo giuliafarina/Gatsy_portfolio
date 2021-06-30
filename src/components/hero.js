@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { navBar } from "./layout.module.css";
 import {
 
-    heroImage
+    heroImage, heroSection
 } from './layout.module.css'
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { Container } from "react-bootstrap";
@@ -14,7 +14,7 @@ import Me from "./me";
 
 const Hero = ({ children }) => {
     return (
-        <Container className={heroImage}>
+        <Container className={heroSection}>
             {children} <Me />
         </Container>
 

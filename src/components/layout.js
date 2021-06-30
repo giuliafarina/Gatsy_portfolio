@@ -12,6 +12,7 @@ import {
 
 import Hero from './hero';
 import Menu from "./menu";
+import { Container } from "react-bootstrap";
 
 
 
@@ -19,24 +20,24 @@ import Menu from "./menu";
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div>
-
-            <div className={heroSection}>
-
-                <main className={container}>
-                    <Hero pageTitle={pageTitle} >
-                        <title>{pageTitle}</title>
-                        <Menu />
-
-                        <h1 className={heading}>{pageTitle}</h1>
-                    </Hero>
 
 
-                </main>
 
 
-            </div>
-        </div>
+        <Container className={container}>
+            <Hero pageTitle={pageTitle} >
+                <title>{pageTitle}</title>
+                <Menu />
+
+                <h1 className={heading}>{pageTitle}</h1>
+            </Hero>
+
+
+        </Container>
+
+
+
+
 
     )
 }

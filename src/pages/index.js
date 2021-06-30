@@ -14,7 +14,7 @@ import Hero from '../components/hero';
 const IndexPage = () => {
   return (
     <main>
-      <Layout pageTitle="Welcome">
+      <Layout pageTitle="WELCOME">
 
 
 
