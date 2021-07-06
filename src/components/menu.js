@@ -10,8 +10,7 @@ import {
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 
-import Bio from "./bio";
-import Contact from "./contact";
+
 
 
 const Menu = ({ children }) => {

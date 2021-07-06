@@ -15,6 +15,7 @@ import Menu from "./menu";
 import Bio from "./bio";
 import Contact from "./contact";
 import { Container } from "react-bootstrap";
+import Scroll from "./scroll";
 
 
 
@@ -46,7 +47,7 @@ const Layout = ({ pageTitle, children }) => {
 
             <Container fluid className={container}><Contact idProp="contact" /></Container>
 
-
+            <Scroll />
         </Container>
 
 
