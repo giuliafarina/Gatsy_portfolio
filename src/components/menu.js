@@ -8,7 +8,7 @@ import {
     navLinkText
 } from "./layout.module.css";
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
-import { Logo } from "../images/Logo.svg"
+
 
 import Bio from "./bio";
 import Contact from "./contact";
@@ -24,7 +24,7 @@ const Menu = ({ children }) => {
                     <Nav className="mr-auto">
                         <ul className={navLinks}>
                             <li><img
-                                src={Logo}
+                                src="../images/Logo.png"
                                 width="30"
                                 height="30"
                                 className="d-inline-block align-top"

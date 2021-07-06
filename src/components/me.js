@@ -7,7 +7,7 @@ import photoCV from "../images/photoCVbw.png"
 
 const Me = ({ idProp }) => {
     return (
-        <Container className={container}> <Image src={photoCV} className={photoHero} fluid /><p id={idProp}>
+        <Container fluid className={container}> <Image src={photoCV} className={photoHero} fluid /><p id={idProp}>
 
             <h2>Hi! I'm Giulia.</h2> <br />I am a front-end developer with a flair for design.<br />
 

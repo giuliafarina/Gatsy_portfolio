@@ -10,9 +10,14 @@
 
 
 
-.container{
+.main {
     text-align: center; 
-    padding:  0%;
+  padding: 0 !important;
+    width: 100%;
+}
+
+.container {
+  padding: 0 !important;
 }
 
 
@@ -63,6 +68,7 @@
 
 .container_bio{
   background-color: rosybrown;
+  text-align: center;
 
   padding: 30%;
 }
@@ -72,4 +78,5 @@
 .container_contact{
   padding: 30%;
   background-color: seashell;
+  text-align: center;
 }

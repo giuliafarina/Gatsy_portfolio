@@ -1,7 +1,7 @@
 
 
 import * as React from 'react'
-import { Link } from "gatsby";
+
 import Layout from '../components/layout';
 
 // Bootstrap CSS
@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-import Contact from "../components/contact";
+
 
 
 

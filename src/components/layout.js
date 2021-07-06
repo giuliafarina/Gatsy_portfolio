@@ -4,7 +4,7 @@ import * as React from 'react'
 
 import {
     container,
-    heading,
+    heading, main,
 
     heroSection
 } from './layout.module.css'
@@ -25,9 +25,9 @@ const Layout = ({ pageTitle, children }) => {
     return (
 
 
-        <main>
+        <Container fluid className={main}>
 
-            <Container className={container}>
+            <Container fluid className={container}>
                 <Hero pageTitle={pageTitle} >
                     <title>{pageTitle}</title>
                     <Menu />
@@ -36,7 +36,7 @@ const Layout = ({ pageTitle, children }) => {
                 </Hero>
 
             </Container>
-            <Container>
+            <Container fluid className={container}>
                 <Bio idProp="bio" />
             </Container>
 
@@ -44,10 +44,10 @@ const Layout = ({ pageTitle, children }) => {
 
 
 
-            <Container><Contact idProp="contact" /></Container>
+            <Container fluid className={container}><Contact idProp="contact" /></Container>
 
 
-        </main>
+        </Container>
 
 
 

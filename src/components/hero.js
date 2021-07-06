@@ -13,7 +13,7 @@ import Me from "./me";
 
 const Hero = ({ children }) => {
     return (
-        <Container className={heroSection}>
+        <Container fluid className={heroSection}>
             {children} <Me />
         </Container>
 
