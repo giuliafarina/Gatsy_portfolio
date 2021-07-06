@@ -14,25 +14,25 @@
     text-align: center; 
   padding: 0 !important;
     width: 100%;
+    
+    
 }
 
 .container {
   padding: 0 !important;
+  height: 100vh;
 }
 
 
 /* Hero_section starts here */
    
-.heading {
-  color:#3C8DAD;
-  padding-top: 20px;
-  text-align: center;
-}
+
 
 .heroSection{
   background-color:#F9B208;
-  
+  color: white;
   padding:7% 5%;
+  height: 100vh;
 }
 
 .photoHero{
@@ -44,14 +44,17 @@
  /* Navbar_section starts here */
 
 .nav-bar{
-  text-align: right;
+  
   padding-left: 80%;
+  
  
 
 }
 .nav-links {
   display: flex;
   list-style: none; 
+  text-align: right;
+
   
 }
 .nav-link-item {
@@ -59,19 +62,31 @@
   
 }
 .nav-link-text {
-  color: black;
+  color: white;
   text-decoration: none;
+  
 }
 
 
 /* Bio section starts here */
 
 .container_bio{
-  background-color: rosybrown;
+  background-color: seashell;
   text-align: center;
 
   padding: 30%;
+  height: 100vh;
 }
+
+/* Projects section starts here */
+.container_projects {
+   text-align: center;
+   background-color:#F9B208;
+color: white;
+  padding: 30%;
+  height: 100vh;
+}
+
 
 /* Contact section starts here */
 
@@ -79,4 +94,5 @@
   padding: 30%;
   background-color: seashell;
   text-align: center;
+  height: 100vh;
 }

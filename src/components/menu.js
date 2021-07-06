@@ -15,34 +15,29 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 const Menu = ({ children }) => {
     return (
-        <Container className={container}>
-            <Navbar collapseOnSelect expand="lg" className={navBar}>
-                <Navbar.Brand></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                        <ul className={navLinks}>
-                            <li><img
-                                src="../images/Logo.png"
-                                width="30"
-                                height="30"
-                                className="d-inline-block align-top"
 
-                            /></li>
-                            <li className={navLinkItem}>
-                                <Link to="/" className={navLinkText}>Home</Link>
-                            </li>
-                            <li className={navLinkItem}>
-                                <AnchorLink to="/#bio"
-                                    className={navLinkText}>About</AnchorLink>
-                            </li>
-                            <li className={navLinkItem}><AnchorLink to="/#contact" className={navLinkText}>Contact</AnchorLink></li>
-                        </ul>
-                    </Nav>
+        <Navbar collapseOnSelect expand="lg" className={navBar}>
+            <Navbar.Brand></Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                    <ul className={navLinks}>
 
-                </Navbar.Collapse>
-            </Navbar>
-        </Container>)
+
+                        <li className={navLinkItem}>
+                            <AnchorLink to="/#bio"
+                                className={navLinkText}>About</AnchorLink>
+                        </li>
+                        <li className={navLinkItem}>
+                            <AnchorLink to="/#projects" className={navLinkText}>Projects</AnchorLink>
+                        </li>
+                        <li className={navLinkItem}><AnchorLink to="/#contact" className={navLinkText}>Contact</AnchorLink></li>
+                    </ul>
+                </Nav>
+
+            </Navbar.Collapse>
+        </Navbar>
+    )
 };
 
 export default Menu;

@@ -18,7 +18,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const IndexPage = () => {
   return (
     <>
-      <Layout pageTitle="WELCOME">
+      <Layout>
 
 
 
