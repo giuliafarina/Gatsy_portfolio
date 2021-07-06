@@ -16,8 +16,8 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 const Menu = ({ children }) => {
     return (
 
-        <Navbar collapseOnSelect expand="lg" className={navBar}>
-            <Navbar.Brand></Navbar.Brand>
+        <Navbar bg="transparent" variant="dark" collapseOnSelect expand="lg" className={navBar}>
+
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
