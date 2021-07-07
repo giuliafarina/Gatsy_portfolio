@@ -6,6 +6,8 @@
 
 * {
   font-family:'Roboto', sans-serif;
+  letter-spacing: 0.3rem;
+  line-height: 1.3;
 }
 
 
@@ -43,12 +45,8 @@
 
  /* Navbar_section starts here */
 
-.nav-bar{
-  
-  padding-left: 80%;
-  
- 
-
+.navBar{
+  margin-bottom: 5%;
 }
 .nav-links {
   display: flex;
@@ -74,9 +72,18 @@
   background-color: seashell;
   text-align: center;
 
-  padding: 30%;
+  padding-top:10%;
   height: 100vh;
 }
+.container_bio p {
+  font-size: 1.3rem;
+}
+.container_bio label{
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding:3%;
+}
+
 
 /* Projects section starts here */
 .container_projects {
