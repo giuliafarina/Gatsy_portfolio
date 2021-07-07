@@ -71,6 +71,7 @@
 .container_bio{
   background-color: seashell;
   text-align: center;
+  
 
   padding-top:10%;
   height: 100vh;
@@ -88,10 +89,20 @@
 /* Projects section starts here */
 .container_projects {
    text-align: center;
+   font-size: 1.5rem;
+   line-height: 2.5;
    background-color:#F9B208;
 color: white;
   padding: 30%;
   height: 100vh;
+}
+.container_projects a{
+  color: white;
+}
+.container_projects a:hover{
+  color: rosybrown;
+  text-decoration: none;
+  
 }
 
 
@@ -102,4 +113,18 @@ color: white;
   background-color: seashell;
   text-align: center;
   height: 100vh;
+}
+.container_contact p{
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+.container_contact a{
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.container_contact a:hover{
+  color: rosybrown;
+  text-decoration: none;
+  
 }
