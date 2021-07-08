@@ -8,7 +8,7 @@ const Projects = ({ idProp }) => {
         <Container fluid className={container_projects} id={idProp}>
             <p>Have a look at my projects:
             </p><br />
-            <a href="https://github.com/giuliafarina"><GitHubIcon /> https://github.com/giuliafarina</a>
+            <a href="https://github.com/giuliafarina"><GitHubIcon /> giuliafarina</a>
 
 
         </Container>
