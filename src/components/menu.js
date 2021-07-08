@@ -15,28 +15,29 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 const Menu = ({ children }) => {
     return (
+        <Nav className="ml-auto justify-content-center">
+            <Navbar bg="transparent" variant="dark" collapseOnSelect expand="lg" className={navBar + " justify-content-center"}>
 
-        <Navbar bg="transparent" variant="dark" collapseOnSelect expand="lg" className={navBar}>
-
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
-                    <ul className={navLinks}>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav navbarScroll" />
+                <Navbar.Collapse id="responsive-navbar navbarScroll" className="order-md-1">
 
 
-                        <li className={navLinkItem}>
-                            <AnchorLink to="/#bio"
-                                className={navLinkText}>About</AnchorLink>
-                        </li>
-                        <li className={navLinkItem}>
-                            <AnchorLink to="/#projects" className={navLinkText}>Projects</AnchorLink>
-                        </li>
-                        <li className={navLinkItem}><AnchorLink to="/#contact" className={navLinkText}>Contact</AnchorLink></li>
-                    </ul>
-                </Nav>
 
-            </Navbar.Collapse>
-        </Navbar>
+
+                    <Nav.Link className={navLinkItem}>
+                        <AnchorLink to="/#bio"
+                            className={navLinkText}>About</AnchorLink>
+                    </Nav.Link>
+                    <Nav.Link className={navLinkItem}>
+                        <AnchorLink to="/#projects" className={navLinkText}>Projects</AnchorLink>
+                    </Nav.Link>
+                    <Nav.Link className={navLinkItem}><AnchorLink to="/#contact" className={navLinkText}>Contact</AnchorLink></Nav.Link>
+
+
+
+                </Navbar.Collapse>
+            </Navbar>
+        </Nav>
     )
 };
 
