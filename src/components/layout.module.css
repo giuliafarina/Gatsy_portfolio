@@ -45,11 +45,25 @@
 
  /* Navbar_section starts here */
 
-.navBar{
+.navBar {
   margin-bottom: 5%;
   
 
 }
+
+@media (min-width:992px) {
+.burger {
+  display: none;
+}
+  
+}
+
+
+  
+
+
+
+
 .nav-links {
   display: flex;
   list-style: none; 

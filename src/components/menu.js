@@ -4,7 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 
 
 import {
-
+    burger,
     navBar,
     navLinkItem,
     navLinkText
@@ -16,13 +16,15 @@ import Hamburger from 'hamburger-react';
 
 
 
-const Menu = ({ props }) => {
+const Menu = () => {
     const [isOpen, setOpen] = useState(false)
 
     return (
         <Nav className="ml-auto justify-content-center">
             <Navbar bg="transparent" variant="dark" collapseOnSelect expand="lg" className={navBar + " justify-content-center"}>
-                <Hamburger className={Styles.burger} toggled={isOpen} toggle={setOpen} />
+                <div className={burger}>
+                    <Hamburger toggled={isOpen} toggle={setOpen} />
+                </div>
 
                 <Navbar.Collapse id="responsive-navbar navbarScroll" className={isOpen ? "show " : "" + "order-md-1"}>
 
