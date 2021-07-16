@@ -104,12 +104,20 @@ font-weight: bold;
 }
 .bio_paragraph{
   padding-top: 3%;
-  font-size: 1.2rem;
-  
-  
+  font-size: 1.2rem; 
   
 }
 
+
+.label{
+  background-color:#F9B208;
+  margin: 2%;
+  border-radius: 0.7rem;
+  padding:5px;
+}
+.label:hover{
+  background-color: rosybrown;
+}
 
 /* Projects section starts here */
 .container_projects {

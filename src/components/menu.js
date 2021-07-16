@@ -23,7 +23,7 @@ const Menu = () => {
         <Nav className="ml-auto justify-content-center">
             <Navbar bg="transparent" variant="dark" collapseOnSelect expand="lg" className={navBar + " justify-content-center"}>
                 <div className={burger}>
-                    <Hamburger toggled={isOpen} toggle={setOpen} />
+                    <Hamburger toggled={isOpen} toggle={setOpen} easing="ease-in" />
                 </div>
 
                 <Navbar.Collapse id="responsive-navbar navbarScroll" className={isOpen ? "show " : "" + "order-md-1"}>
