@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Container } from "react-bootstrap";
-import { container_contact } from "./layout.module.css";
+import { container_contact } from "../styles/layout.module.css";
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 
 const Contact = ({ idProp }) => {

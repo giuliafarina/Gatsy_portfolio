@@ -4,7 +4,7 @@ import * as React from "react";
 import {
 
     heroSection
-} from './layout.module.css'
+} from '../styles/layout.module.css'
 
 import { Container } from "react-bootstrap";
 import Me from "./me";

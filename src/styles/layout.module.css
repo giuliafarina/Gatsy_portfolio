@@ -1,23 +1,16 @@
 /* Google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-
-
-
 * {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.3rem;
   line-height: 1.3;
 }
 
-
-
 .main {
-    text-align: center; 
+  text-align: center;
   padding: 0 !important;
-    width: 100%;
-    
-    
+  width: 100%;
 }
 
 .container {
@@ -25,139 +18,131 @@
   height: 100vh;
 }
 
-
 /* Hero_section starts here */
-   
 
-
-.heroSection{
-  background-color:#F9B208;
+.heroSection {
+  background-color: #F9B208;
   color: white;
-  padding:7% 5%;
+  padding: 7% 5%;
   height: 100vh;
 }
 
-.photoHero{
-  padding:50px;
-  
+.photoHero {
+  padding: 50px;
 }
 
-
- /* Navbar_section starts here */
+/* Navbar_section starts here */
 
 .navBar {
   margin-bottom: 5%;
-  
-
 }
 
 @media (min-width:992px) {
-.burger {
-  display: none;
+  .burger {
+    display: none;
+  }
 }
-  
-}
-
-
-  
-
-
-
 
 .nav-links {
   display: flex;
-  list-style: none; 
+  list-style: none;
   text-align: right;
+}
 
-  
-}
-.nav-link-item {
+.navLinkItem {
   padding-left: 2rem;
-  
 }
-.nav-link-text {
+
+.navLinkText {
   color: white;
   text-decoration: none;
-font-size: 1.2rem;
-font-weight: bold;
-  
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
+.navLinkText:hover {
+  text-decoration: none;
+  color: rosybrown;
+  border-bottom: solid 1.2px;
+}
 
 /* Bio section starts here */
 
-.container_bio{
+.container_bio {
   background-color: seashell;
   text-align: center;
-  
-
-  padding-top:10%;
+  padding-top: 10%;
   height: 100vh;
 }
+
 .container_bio p {
   font-size: 1.3rem;
 }
-.container_bio label{
+
+.container_bio label {
   font-size: 1.4rem;
   font-weight: bolder;
-  padding:3%;
+  padding: 3%;
 }
-.bio_paragraph{
+
+.bio_paragraph {
   padding-top: 3%;
-  font-size: 1.2rem; 
-  
+  font-size: 1.2rem;
 }
 
-
-.label{
-  background-color:#F9B208;
+.label {
+  background-color: #F9B208;
   margin: 2%;
   border-radius: 0.7rem;
-  padding:5px;
+  padding: 5px;
 }
-.label:hover{
+
+.label:hover {
   background-color: rosybrown;
 }
 
 /* Projects section starts here */
+
 .container_projects {
-   text-align: center;
-   font-size: 1.5rem;
-   line-height: 2.5;
-   background-color:#F9B208;
-color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.5;
+  background-color: #F9B208;
+  color: white;
   padding: 30%;
   height: 100vh;
 }
-.container_projects a{
+
+.container_projects a {
   color: white;
 }
-.container_projects a:hover{
+
+.container_projects a:hover {
   color: rosybrown;
   text-decoration: none;
-  
 }
-
 
 /* Contact section starts here */
 
-.container_contact{
+.container_contact {
   padding: 30%;
   background-color: seashell;
   text-align: center;
   height: 100vh;
 }
-.container_contact p{
+
+.container_contact p {
   font-size: 1.4rem;
   line-height: 1.7;
 }
-.container_contact a{
+
+.container_contact a {
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
 }
-.container_contact a:hover{
+
+.container_contact a:hover {
   color: rosybrown;
   text-decoration: none;
-  
 }

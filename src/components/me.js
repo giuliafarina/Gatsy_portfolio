@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Container, Image } from 'react-bootstrap';
-import { container, photoHero } from './layout.module.css';
+import { container, photoHero } from '../styles/layout.module.css';
 import photoCV from "../images/photoCVbw.png"
 
 

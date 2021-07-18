@@ -7,7 +7,8 @@ import {
     heading, main,
 
     heroSection
-} from './layout.module.css'
+} from "../styles/layout.module.css"
+
 
 
 import Hero from './hero';

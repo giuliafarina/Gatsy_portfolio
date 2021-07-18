@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Container } from "react-bootstrap";
-import { container_bio, bio_paragraph, intro, label } from "./layout.module.css";
+import { container_bio, bio_paragraph, intro, label } from "../styles/layout.module.css";
 
 const Bio = ({ idProp }) => {
     return (

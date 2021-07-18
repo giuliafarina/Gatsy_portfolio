@@ -8,7 +8,7 @@ import {
     navBar,
     navLinkItem,
     navLinkText
-} from "./layout.module.css";
+} from "../styles/layout.module.css";
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import Hamburger from 'hamburger-react';
 

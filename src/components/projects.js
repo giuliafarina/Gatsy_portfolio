@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Container } from "react-bootstrap";
-import { container_projects } from "./layout.module.css"
+import { container_projects } from "../styles/layout.module.css"
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Projects = ({ idProp }) => {
