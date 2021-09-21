@@ -1,22 +1,17 @@
 import * as React from 'react'
-import { Container, Image } from 'react-bootstrap';
-import { container, photoHero } from '../styles/layout.module.css';
-import photoCV from "../images/photoCVbw.png"
+import * as styles from "../styles/hero.module.css";
 
 
 
 const Me = ({ idProp }) => {
     return (
-        <div>
-            <Image src={photoCV} className={photoHero} fluid /><p id={idProp}>
-
-                <h2>Hi! I'm Giulia.</h2> <br /><h3>I am a front-end developer with a flair for design.</h3><br />
-
-
-
-
-
+        <div className={styles.container_content_hero}>
+            <p className={styles.content} id={idProp}>
+                <h2>Hello, I'm</h2>
+                <h1 className={styles.title}>GIULIA FARINA</h1> <br />
+                <h3>I am a creative front-end developer.</h3><br />
             </p>
+            <div className={styles.overlay}></div>
         </div>
 
     )

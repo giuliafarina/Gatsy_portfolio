@@ -28,7 +28,7 @@ const Layout = ({ pageTitle, children }) => {
     return (
 
 
-        <Container fluid className={main}>
+        <div className={main}>
 
 
             <Hero pageTitle={pageTitle} >
@@ -53,7 +53,7 @@ const Layout = ({ pageTitle, children }) => {
             <Contact idProp="contact" />
 
             <Scroll />
-        </Container>
+        </div>
 
 
 

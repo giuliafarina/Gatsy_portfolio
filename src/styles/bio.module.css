@@ -1,0 +1,51 @@
+/* Bio section starts here */
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.container_bio {
+    display: flex;
+    padding: 5% 7%;
+    height: 100vh;
+}
+
+.container_content {
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+}
+
+.container_image {
+    padding: 2%;
+}
+
+.giuliaRose_image {
+    width: 45vw;
+}
+
+.container_bio label {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    padding: 3%;
+}
+
+.bio_paragraph {
+    padding-top: 3%;
+    font-size: 1.2rem;
+}
+
+.label {
+    background-color: #F9B208;
+    margin: 2%;
+    border-radius: 0.7rem;
+    padding: 5px;
+}
+
+.label:hover {
+    background-color: rosybrown;
+}
+
+.title {
+    padding-bottom: 3%;
+}
