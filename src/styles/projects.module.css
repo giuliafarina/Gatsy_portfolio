@@ -2,11 +2,11 @@
     background-color: rgb(23, 16, 16);
     padding: 5% 7%;
     color: white;
+    justify-content: space-between;
 }
 
 .container_projects {
     display: flex;
-    justify-content: space-between;
     padding: 0;
 }
 
@@ -17,12 +17,8 @@
     padding: 3%;
 }
 
-.container_image {
-    max-width: 40%;
-}
-
 img {
-    max-width: 40vw;
+    width: 36vw;
     transition: transform 250ms;
 }
 
@@ -32,6 +28,11 @@ img:hover {
 
 .title {
     padding: 5% 0;
+}
+
+.title_projects {
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .description {
@@ -44,7 +45,7 @@ img:hover {
 .wrapper {
     position: relative;
     padding-left: 40%;
-    padding-top: 40%;
+    padding-top: 20%;
 }
 
 .planet {
@@ -61,7 +62,7 @@ img:hover {
     right: 0;
     bottom: 0;
     margin-left: 45%;
-    margin-top: 50%;
+    margin-top: 30%;
     width: 40px;
     height: 40px;
     background: rosybrown;

@@ -13,24 +13,25 @@ const Projects = ({ idProp }) => {
         <>
             <div className={styles.wrapper_dark} id={idProp}>
                 <h1 className={styles.title}><b>Recent work</b></h1><br />
+
                 <div className={styles.container_projects} >
 
                     <div className={styles.container_content}>
-
-                        <h2 className={styles.title}>Destino Coaching</h2>
+                        <h2 className={styles.title_projects}>Destino Coaching</h2>
 
                         <div className={styles.container_image}>
                             <a href="https://www.destinocoaching.co.uk/">
-                                <img className={styles.destino_image} src={destino} /></a>
-
+                                <img className={styles.destino_image} src={destino} />
+                            </a>
                         </div>
                         <div className={styles.description}>
                             <p>A website for a small Coaching-Services business.</p>
                             <p>Responsabilities: coding.</p>
                             <p>Technologies: React.JS, Gatsby.JS.</p>
                         </div>
-
-                        <h2 className={styles.title}>Reinhardt Heinemann</h2>
+                    </div>
+                    <div className={styles.container_content}>
+                        <h2 className={styles.title_projects}>Reinhardt Heinemann</h2>
 
                         <div className={styles.container_image}>
                             <img className={styles.destino_image} src={heinemann} />
@@ -41,27 +42,23 @@ const Projects = ({ idProp }) => {
                             <p>Technologies: React.JS, Bootstrap.</p>
                         </div>
                     </div>
-                    <div className={styles.container_content}>
 
-                        <h2 className={styles.title}>Teatro delle Stanze</h2>
+                </div>
+                <div className={styles.container_projects} >
+                    <div className={styles.container_content}>
+                        <h2 className={styles.title_projects}>Teatro delle Stanze</h2>
                         <div className={styles.container_image}>
                             <img className={styles.stanze_image} src={stanze} /></div>
                         <div className={styles.description}>
                             <p>A website for an italian theatre company.</p>
                             <p>Responsabilities: UX/UI, coding.</p>
                             <p>Technologies: Node.JS, Express, Bootstrap.</p></div>
+                    </div>
+                    <div className={styles.container_content}>
 
 
-
-                        <h2 className={styles.title}>Riddles</h2>
-                        <p>...Nothing yet?</p>
-                        <div className={styles.container_image}>
-                            <div class={styles.wrapper}>
-                                <div class={styles.planet}></div>
-                                <div class={styles.moon}></div>
-                            </div>
-
-                        </div>
+                        <h2 className={styles.title_projects}>Riddles</h2>
+                        <p>...Nothing yet?</p><br />
                         <div className={styles.description}>
                             <p>On July 20, 1969, two American astronauts,</p>
                             <p>Neil Armstrong
@@ -71,58 +68,20 @@ const Projects = ({ idProp }) => {
 
 
                         </div>
+                        <div className={styles.container_image}>
+                            <div class={styles.wrapper}>
+                                <div class={styles.planet}></div>
+                                <div class={styles.moon}></div>
+                            </div>
+
+                        </div>
 
                     </div>
-
-
-
-
-
-
-
-
-
-
-                    {/* <div className={styles.container_projects} ><div className={styles.container_content}>
-
-                        <h2 className={styles.title}>Teatro delle Stanze</h2>
-                        <div className={styles.container_image}>
-                            <img className={styles.stanze_image} src={stanze} /></div>
-
-                        <p>A website for an italian theatre company.</p>
-                        <p>Responsabilities: UX/UI, coding.</p>
-                        <p>Technologies: Node.JS, Express, Bootstrap.</p>
-
-
-
-                        <h2 className={styles.title}>Riddles</h2>
-                        <div className={styles.container_image}> <div class={styles.wrapper}>
-                            <div class={styles.planet}></div>
-                            <div class={styles.moon}></div>
-                        </div></div>
-
-                        <div className={styles.description}>
-                            <p>...Nothing yet?</p><br />
-                            <p>On July 20, 1969, two American astronauts, Neil Armstrong
-                                and Edwin "Buzz" Aldrin,
-                                became the first humans ever to land on the moon.</p>
-                        </div> */}
-
-
-
-                    {/* </div></div> */}
-
-
                 </div>
 
                 {/* <a href="https://github.com/giuliafarina"><GitHubIcon /> giuliafarina</a> */}
 
-            </div >
-
-
-
-
-
+            </div>
         </>
     )
 
