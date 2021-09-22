@@ -1,0 +1,88 @@
+.wrapper_dark {
+    background-color: rgb(23, 16, 16);
+    padding: 5% 7%;
+    color: white;
+}
+
+.container_projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.container_content {
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    padding: 3%;
+}
+
+.container_image {
+    max-width: 40%;
+}
+
+img {
+    max-width: 40vw;
+    transition: transform 250ms;
+}
+
+img:hover {
+    transform: translateY(-10px);
+}
+
+.title {
+    padding: 5% 0;
+}
+
+.description {
+    font-size: 1rem;
+    padding: 3% 0;
+}
+
+/* Coming Soon Animation */
+
+.wrapper {
+    position: relative;
+    padding-left: 40%;
+    padding-top: 40%;
+}
+
+.planet {
+    width: 150px;
+    height: 150px;
+    background: silver;
+    border-radius: 50%;
+}
+
+.moon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 45%;
+    margin-top: 50%;
+    width: 40px;
+    height: 40px;
+    background: rosybrown;
+    border-radius: 50%;
+}
+
+@keyframes orbit {
+    from {
+        transform: rotate(0deg) translateX(80px);
+    }
+    to {
+        transform: rotate(360deg) translateX(80px);
+    }
+}
+
+@media ( prefers-reduced-motion: no-preference) {
+    .moon {
+        animation: orbit 6000ms linear infinite;
+    }
+}
+
+.coming {
+    margin: auto;
+}

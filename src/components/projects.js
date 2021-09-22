@@ -2,17 +2,128 @@ import * as React from "react";
 import { Container } from "react-bootstrap";
 import { container_projects } from "../styles/layout.module.css"
 import GitHubIcon from '@material-ui/icons/GitHub';
+import * as styles from "../styles/projects.module.css";
+import destino from "../images/destino.png";
+import stanze from "../images/stanze.png";
+import heinemann from "../images/heinemann.png";
+
 
 const Projects = ({ idProp }) => {
     return (
-        <Container fluid className={container_projects} id={idProp}>
-            <p>Have a look at my projects:
-            </p><br />
-            <a href="https://github.com/giuliafarina"><GitHubIcon /> giuliafarina</a>
+        <>
+            <div className={styles.wrapper_dark} id={idProp}>
+                <h1 className={styles.title}><b>Recent work</b></h1><br />
+                <div className={styles.container_projects} >
+
+                    <div className={styles.container_content}>
+
+                        <h2 className={styles.title}>Destino Coaching</h2>
+
+                        <div className={styles.container_image}>
+                            <a href="https://www.destinocoaching.co.uk/">
+                                <img className={styles.destino_image} src={destino} /></a>
+
+                        </div>
+                        <div className={styles.description}>
+                            <p>A website for a small Coaching-Services business.</p>
+                            <p>Responsabilities: coding.</p>
+                            <p>Technologies: React.JS, Gatsby.JS.</p>
+                        </div>
+
+                        <h2 className={styles.title}>Reinhardt Heinemann</h2>
+
+                        <div className={styles.container_image}>
+                            <img className={styles.destino_image} src={heinemann} />
+                        </div>
+                        <div className={styles.description}>
+                            <p>Re-design for an online catalog of Reinhardt Heinemann's paintings.</p>
+                            <p>Responsabilities: UX/UI, coding.</p>
+                            <p>Technologies: React.JS, Bootstrap.</p>
+                        </div>
+                    </div>
+                    <div className={styles.container_content}>
+
+                        <h2 className={styles.title}>Teatro delle Stanze</h2>
+                        <div className={styles.container_image}>
+                            <img className={styles.stanze_image} src={stanze} /></div>
+                        <div className={styles.description}>
+                            <p>A website for an italian theatre company.</p>
+                            <p>Responsabilities: UX/UI, coding.</p>
+                            <p>Technologies: Node.JS, Express, Bootstrap.</p></div>
 
 
-        </Container>
 
+                        <h2 className={styles.title}>Riddles</h2>
+                        <p>...Nothing yet?</p>
+                        <div className={styles.container_image}>
+                            <div class={styles.wrapper}>
+                                <div class={styles.planet}></div>
+                                <div class={styles.moon}></div>
+                            </div>
+
+                        </div>
+                        <div className={styles.description}>
+                            <p>On July 20, 1969, two American astronauts,</p>
+                            <p>Neil Armstrong
+                                and Edwin "Buzz" Aldrin,
+                                became the first humans ever to land on the moon.</p>
+                            <p>Give me a little bit of time.</p>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    {/* <div className={styles.container_projects} ><div className={styles.container_content}>
+
+                        <h2 className={styles.title}>Teatro delle Stanze</h2>
+                        <div className={styles.container_image}>
+                            <img className={styles.stanze_image} src={stanze} /></div>
+
+                        <p>A website for an italian theatre company.</p>
+                        <p>Responsabilities: UX/UI, coding.</p>
+                        <p>Technologies: Node.JS, Express, Bootstrap.</p>
+
+
+
+                        <h2 className={styles.title}>Riddles</h2>
+                        <div className={styles.container_image}> <div class={styles.wrapper}>
+                            <div class={styles.planet}></div>
+                            <div class={styles.moon}></div>
+                        </div></div>
+
+                        <div className={styles.description}>
+                            <p>...Nothing yet?</p><br />
+                            <p>On July 20, 1969, two American astronauts, Neil Armstrong
+                                and Edwin "Buzz" Aldrin,
+                                became the first humans ever to land on the moon.</p>
+                        </div> */}
+
+
+
+                    {/* </div></div> */}
+
+
+                </div>
+
+                {/* <a href="https://github.com/giuliafarina"><GitHubIcon /> giuliafarina</a> */}
+
+            </div >
+
+
+
+
+
+        </>
     )
 
 
