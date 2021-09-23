@@ -16,7 +16,7 @@ import Menu from "./menu";
 import Bio from "./bio";
 import Projects from "./projects";
 import Contact from "./contact";
-import { Container } from "react-bootstrap";
+
 import Scroll from "./scroll";
 
 
@@ -33,23 +33,11 @@ const Layout = ({ pageTitle, children }) => {
 
             <Hero pageTitle={pageTitle} >
                 <title>{pageTitle}</title>
-
                 <Menu />
 
             </Hero>
-
-
-
             <Bio idProp="bio" />
-
-
             <Projects idProp="projects" />
-
-
-
-
-
-
             <Contact idProp="contact" />
 
             <Scroll />

@@ -17,26 +17,26 @@
 
 /* Navbar_section starts here */
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .navBar {
-  margin-bottom: 5%;
   position: absolute;
   z-index: 2;
+  margin-bottom: 5%;
+  display: flex;
 }
 
-@media (min-width:992px) {
-  .burger {
-    display: none;
-  }
-}
-
-.nav-links {
+.nav_links {
   display: flex;
   list-style: none;
-  text-align: right;
 }
 
 .navLinkItem {
-  padding-left: 2rem;
+  padding: 2rem;
+  justify-content: center;
 }
 
 .navLinkText {
@@ -52,25 +52,10 @@
   border-bottom: solid 1.2px;
 }
 
-/* Projects section starts here */
-
-.container_projects {
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 2.5;
-  background-color: #F9B208;
-  color: white;
-  padding: 30%;
-  height: 100vh;
-}
-
-.container_projects a {
-  color: white;
-}
-
-.container_projects a:hover {
-  color: rosybrown;
-  text-decoration: none;
+@media (max-width:600px) {
+  .navBar {
+    display: none;
+  }
 }
 
 /* Contact section starts here */

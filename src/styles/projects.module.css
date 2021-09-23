@@ -2,12 +2,17 @@
     background-color: rgb(23, 16, 16);
     padding: 5% 7%;
     color: white;
-    justify-content: space-between;
 }
 
 .container_projects {
+    justify-content: space-between;
     display: flex;
     padding: 0;
+}
+
+.container_image {
+    width: 36vw;
+    margin-bottom: 3%;
 }
 
 .container_content {
@@ -19,15 +24,19 @@
 
 img {
     width: 36vw;
+    max-height: 35vh;
     transition: transform 250ms;
 }
 
 img:hover {
     transform: translateY(-10px);
+    box-shadow: 3px 3px 2px 2px seashell;
 }
 
 .title {
     padding: 5% 0;
+    text-align: center;
+    position: relative;
 }
 
 .title_projects {
@@ -40,7 +49,7 @@ img:hover {
     padding: 3% 0;
 }
 
-/* Coming Soon Animation */
+/* Moon Animation */
 
 .wrapper {
     position: relative;

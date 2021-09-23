@@ -12,7 +12,8 @@ const Projects = ({ idProp }) => {
     return (
         <>
             <div className={styles.wrapper_dark} id={idProp}>
-                <h1 className={styles.title}><b>Recent work</b></h1><br />
+                <h1 className={styles.title}><b>Recent works</b></h1><br />
+
 
                 <div className={styles.container_projects} >
 
@@ -79,7 +80,9 @@ const Projects = ({ idProp }) => {
                     </div>
                 </div>
 
-                {/* <a href="https://github.com/giuliafarina"><GitHubIcon /> giuliafarina</a> */}
+
+
+
 
             </div>
         </>

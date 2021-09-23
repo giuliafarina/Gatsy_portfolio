@@ -1,0 +1,22 @@
+.line1, .line2, .line3 {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width:992px) {
+    .burger {
+        display: none;
+        margin: auto;
+    }
+}
