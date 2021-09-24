@@ -29,7 +29,7 @@ const Menu = () => {
 
         <nav className={styles.navBar}>
             <div className={styles.burger}>
-                <button className={styles.button_toggle_menu} onClick={handleClick}>{mobileNavOpen ? "Close" : "Open"}
+                <button className={styles.button_toggle_menu} onClick={handleClick}>
                     <span className={styles.line1} />
                     <span className={styles.line2} />
                     <span className={styles.line3} />
@@ -37,7 +37,7 @@ const Menu = () => {
 
 
             </div>
-            <ul className={`menuNav ${mobileNavOpen ? "showMenu" : ""}`} >
+            <ul className={mobileNavOpen ? styles.nav_links_active : styles.nav_links}>
                 <li className={styles.navLinkItem}><AnchorLink className={styles.navLinkText} to="/#bio">About</AnchorLink></li>
                 <li className={styles.navLinkItem}><AnchorLink className={styles.navLinkText} to="/#projects">Projects</AnchorLink></li>
                 <li className={styles.navLinkItem}><AnchorLink className={styles.navLinkText} to="/#contact">Contacts</AnchorLink></li>

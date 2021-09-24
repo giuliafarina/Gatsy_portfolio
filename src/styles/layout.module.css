@@ -52,25 +52,26 @@
   border-bottom: solid 1.2px;
 }
 
-@media (max-width:600px) {
-  .navBar {
-    display: none;
-  }
+.burger {
+  display: none;
+  justify-content: center;
 }
 
 @media (max-width:600px) {
+  .burger {
+    display: flex;
+  }
   .nav_links {
     display: none;
   }
-  .nav_links .active {
+  .nav_links_active {
     display: flex;
     flex-direction: column;
+    list-style: none;
   }
-}
-
-.burger {
-  display: flex;
-  justify-content: center;
+  .navBar {
+    flex-direction: column;
+  }
 }
 
 .line1, .line2, .line3 {
@@ -86,23 +87,6 @@
 .button_toggle_menu {
   background-color: transparent;
   border: none;
-}
-
-@media (max-width:600px) {
-  .nav_links {
-    display: none;
-  }
-  .nav_links .active {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (min-width:992px) {
-  .burger {
-    display: none;
-    margin: auto;
-  }
 }
 
 /* Contact section starts here */
