@@ -1,5 +1,6 @@
 .wrapper_dark {
-    background-color: rgb(23, 16, 16);
+    /* background-color: rgb(23, 16, 16); */
+    background-color: #3B6978;
     padding: 5% 7%;
     color: white;
 }
@@ -91,8 +92,4 @@ img:hover {
     .moon {
         animation: orbit 6000ms linear infinite;
     }
-}
-
-.coming {
-    margin: auto;
 }
