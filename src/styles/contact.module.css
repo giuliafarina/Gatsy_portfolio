@@ -1,0 +1,36 @@
+.wrapper_contact {
+    padding: 10% 5%;
+    text-align: center;
+}
+
+.wrapper_contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.container_contact {
+    margin-top: 10%;
+}
+
+.container_contact p {
+    font-size: 1.3rem;
+    line-height: 1rem;
+}
+
+.container_contact a:hover {
+    color: rosybrown;
+    text-decoration: none;
+}
+
+.social {
+    margin-top: 5%;
+}
+
+.social svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+.social svg:hover {
+    color: rosybrown;
+}

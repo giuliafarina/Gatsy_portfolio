@@ -7,7 +7,6 @@ p {
 .container_bio {
     display: flex;
     padding: 5% 20%;
-    height: 100vh;
     margin: auto;
 }
 
@@ -21,16 +20,6 @@ p {
     padding: 2%;
 }
 
-.giuliaRose_image {
-    width: 45vw;
-}
-
-.container_bio label {
-    font-size: 1.4rem;
-    font-weight: bolder;
-    padding: 3%;
-}
-
 .bio_paragraph {
     padding-top: 3%;
     font-size: 1.2rem;
@@ -39,4 +28,11 @@ p {
 .title {
     text-align: center;
     padding-bottom: 3%;
+}
+
+@media only screen and (max-width:768px) {
+    .container_bio {
+        display: flex;
+        flex-direction: column;
+    }
 }

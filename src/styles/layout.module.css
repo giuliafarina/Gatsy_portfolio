@@ -57,7 +57,7 @@
   justify-content: center;
 }
 
-@media (max-width:600px) {
+@media only screen and (max-width:768px) {
   .burger {
     display: flex;
   }
@@ -66,11 +66,19 @@
   }
   .nav_links_active {
     display: flex;
+    text-align: center;
     flex-direction: column;
     list-style: none;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 0;
   }
   .navBar {
     flex-direction: column;
+  }
+  .wrapper_active {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -90,26 +98,3 @@
 }
 
 /* Contact section starts here */
-
-.container_contact {
-  padding: 30%;
-  background-color: seashell;
-  text-align: center;
-  height: 100vh;
-}
-
-.container_contact p {
-  font-size: 1.4rem;
-  line-height: 1.7;
-}
-
-.container_contact a {
-  color: black;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.container_contact a:hover {
-  color: rosybrown;
-  text-decoration: none;
-}

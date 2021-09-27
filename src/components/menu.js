@@ -25,7 +25,7 @@ const Menu = () => {
 
 
 
-    return <><div className={styles.wrapper}>
+    return <><div className={mobileNavOpen ? styles.wrapper_active : styles.wrapper}>
 
         <nav className={styles.navBar}>
             <div className={styles.burger}>

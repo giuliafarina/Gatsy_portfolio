@@ -11,7 +11,7 @@ const Bio = ({ idProp }) => {
                 <p>I build websites and love it.</p><br />
                 <p>My journey as a developer started while I was completing a PhD in Latin. The necessity of finding smart and fast ways to deal with ancient texts gave me the chance to experiment with modern technologies, combining my passions.</p>
 
-                <p>I like to think that my unique background gives me an original sight on programming and design, as well as an unstoppable curiosity.</p>
+                <p>I like to think that my unique background gives me an original perspective on programming and design, as well as an unstoppable curiosity.</p>
                 <p>(And I can translate Cicero and Aristoteles, isn't that cool?).</p><br />
                 <p>When I am not coding, I love to knit, to practice yoga, and above all, to sleep (if you are laughing at this point I know you are a parent of a little one, too).</p>
 
