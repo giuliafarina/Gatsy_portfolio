@@ -1,6 +1,7 @@
 .wrapper_contact {
     padding: 10% 5%;
     text-align: center;
+    height: 100vh;
 }
 
 .wrapper_contact a {
@@ -9,7 +10,7 @@
 }
 
 .container_contact {
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .container_contact p {

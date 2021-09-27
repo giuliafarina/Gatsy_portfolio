@@ -4,6 +4,7 @@
     color: white;
     padding: 7% 5%;
     height: 100vh;
+    width: 100%;
     position: relative;
     background-attachment: fixed;
 }
@@ -34,8 +35,9 @@
 }
 
 .title {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: bold;
+    text-align: center;
 }
 
 @media (max-width:600px) {
@@ -43,5 +45,15 @@
         text-align: center;
         margin-top: 70%;
         font-size: 1.3rem;
+    }
+    .heroSection {
+        background: url("../images/desk.jpg");
+        background-size: cover;
+        color: white;
+        padding: 7% 5%;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background-attachment: fixed;
     }
 }
