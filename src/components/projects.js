@@ -56,7 +56,7 @@ const Projects = ({ idProp }) => {
                         <div className={styles.description}>
                             <p>Preview website for an italian theatre company.</p>
                             <p>Responsabilities: UX/UI, coding.</p>
-                            <p>Technologies: Node.JS, Express, Bootstrap.</p></div>
+                            <p>Technologies: EJS, Node.JS, Express, Bootstrap.</p></div>
                     </div>
                     <div className={styles.container_content}>
 
