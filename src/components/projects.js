@@ -35,7 +35,8 @@ const Projects = ({ idProp }) => {
                         <h2 className={styles.title_projects}>Reinhardt Heinemann</h2>
 
                         <div className={styles.container_image}>
-                            <img className={styles.destino_image} src={heinemann} />
+                            <a href="https://youtu.be/vA9cSwClSCA">
+                                <img className={styles.destino_image} src={heinemann} /></a>
                         </div>
                         <div className={styles.description}>
                             <p>Re-design for an online catalog of Reinhardt Heinemann's paintings.</p>
