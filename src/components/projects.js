@@ -49,9 +49,11 @@ const Projects = ({ idProp }) => {
                     <div className={styles.container_content}>
                         <h2 className={styles.title_projects}>Teatro delle Stanze</h2>
                         <div className={styles.container_image}>
-                            <img className={styles.stanze_image} src={stanze} /></div>
+                            <a href="https://limitless-cliffs-82942.herokuapp.com/">
+                                <img className={styles.stanze_image} src={stanze} /></a>
+                        </div>
                         <div className={styles.description}>
-                            <p>A website for an italian theatre company.</p>
+                            <p>Preview website for an italian theatre company.</p>
                             <p>Responsabilities: UX/UI, coding.</p>
                             <p>Technologies: Node.JS, Express, Bootstrap.</p></div>
                     </div>

@@ -7,6 +7,7 @@
     width: 100%;
     position: relative;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 .overlay {
@@ -47,7 +48,7 @@
         font-size: 1.3rem;
     }
     .heroSection {
-        background: url("../images/desk.jpg");
+        background: url("../images/deskcropped.jpg");
         background-size: cover;
         color: white;
         padding: 7% 5%;
@@ -55,5 +56,6 @@
         width: 100%;
         position: relative;
         background-attachment: fixed;
+        background-position: right;
     }
 }
