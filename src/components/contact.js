@@ -19,7 +19,7 @@ const Contact = ({ idProp }) => {
                 <p><AiOutlinePhone /> phone: +45 31 48 64 10</p>
             </div>
             <footer className={styles.social}>
-                <a href="linkedin.com/in/giulia-farina-59300099"> <AiOutlineLinkedin /></a>
+                <a href="https://linkedin.com/in/giulia-farina-59300099"> <AiOutlineLinkedin /></a>
                 <a href="https://github.com/giuliafarina"><AiOutlineGithub /></a>
                 {/* <AiOutlineFacebook /><a href="mailto:giuliafarina88@gmail.com"></a>
                 <AiOutlineInstagram /><a href="mailto:giuliafarina88@gmail.com"></a> */}
