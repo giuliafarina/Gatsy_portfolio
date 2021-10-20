@@ -57,6 +57,10 @@
   justify-content: center;
 }
 
+.logo {
+  max-width: 4rem;
+}
+
 @media only screen and (max-width:768px) {
   .burger {
     display: flex;
