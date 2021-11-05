@@ -1,8 +1,6 @@
 import * as React from "react";
-
 import * as styles from "../styles/bio.module.css";
 import giuliaRose from "../images/giuliaRose.png"
-
 const Bio = ({ idProp }) => {
     return (
         <div className={styles.container_bio} id={idProp}>
@@ -10,16 +8,9 @@ const Bio = ({ idProp }) => {
                 <p>My name is Giulia Farina, and I'm a self-taught Front End Developer from Italy, currently based in Copenhagen.</p>
                 <p>I build websites and love it.</p><br />
                 <p>My journey as a developer started while I was completing a PhD in Latin. The necessity of finding smart and fast ways to deal with ancient texts gave me the chance to experiment with modern technologies, combining my passions.</p>
-
-                <p>I like to think that my unique background gives me an original perspective on programming and design, as well as an unstoppable curiosity.</p>
+                <p>My unique background gives me an original perspective on programming and design, as well as an unstoppable curiosity.</p>
                 <p>(And I can translate Cicero and Aristoteles, isn't that cool?).</p><br />
-                <p>When I am not coding, I love to knit, to practice yoga, and above all, to sleep (if you are laughing at this point I know you are a parent of a little one, too).</p>
-
-
-
-
-
-
+                <p>When I am not coding, I love to knit and to practice yoga.</p>
             </div>
             {/* <div className={styles.container_image}>
                 <img className={styles.giuliaRose_image} src={giuliaRose} />
