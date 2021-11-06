@@ -21,8 +21,7 @@ const IndexPage = () => {
         <link rel="icon" type="image/svg+xml" href={favicon} />
         <title>Giulia Farina | Frontend Developer</title>
       </Helmet>
-      <Layout>
-      </Layout>
+      <Layout />
     </React.Fragment>
   )
 }
