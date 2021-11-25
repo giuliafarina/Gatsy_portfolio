@@ -1,6 +1,7 @@
 /* Google fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
 * {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.2rem;
@@ -35,12 +36,12 @@
 }
 
 .navLinkItem {
-  padding: 2rem;
+  padding: 1rem;
   justify-content: center;
 }
 
 .navLinkText {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
@@ -65,21 +66,26 @@
   .burger {
     display: flex;
   }
+
   .nav_links {
     display: none;
   }
+
   .nav_links_active {
     display: flex;
     text-align: center;
     flex-direction: column;
     list-style: none;
     text-transform: uppercase;
+    font-size: small;
     margin: auto;
     padding: 0;
   }
+
   .navBar {
     flex-direction: column;
   }
+
   .wrapper_active {
     display: flex;
     justify-content: center;
@@ -91,7 +97,7 @@
   width: 35px;
   height: 3px;
   margin: 5px auto;
-  background-color: white;
+  background-color: black;
   z-index: 2;
   position: relative;
 }
@@ -100,5 +106,3 @@
   background-color: transparent;
   border: none;
 }
-
-/* Contact section starts here */
