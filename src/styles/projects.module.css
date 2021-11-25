@@ -1,6 +1,6 @@
 .wrapper_dark {
     /* background-color: rgb(23, 16, 16); */
-    background-color: #3B6978;
+    background-color: #2C272E;
     padding: 5% 7%;
     color: white;
 }
@@ -83,12 +83,13 @@ img:hover {
     from {
         transform: rotate(0deg) translateX(80px);
     }
+
     to {
         transform: rotate(360deg) translateX(80px);
     }
 }
 
-@media ( prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
     .moon {
         animation: orbit 6000ms linear infinite;
     }
@@ -100,14 +101,17 @@ img:hover {
         flex-direction: column;
         justify-content: center;
     }
+
     .container_image {
         margin: auto;
         width: 50vw;
     }
+
     .container_content {
         text-align: center;
         font-size: 1.2rem;
     }
+
     img {
         width: 100%;
         height: auto;
